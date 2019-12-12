@@ -74,15 +74,6 @@ namespace CrossPlatformEATest.Features
             testRunner.CollectScenarioErrors();
         }
         
-        public virtual void FeatureBackground()
-        {
-#line 5
-#line hidden
-#line 6
- testRunner.Given("I Delete employee \'AutoUser\' before I start running test", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-        }
-        
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Create Employee with all details")]
         [NUnit.Framework.CategoryAttribute("smoke")]
@@ -112,9 +103,6 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 5
-this.FeatureBackground();
-#line hidden
 #line 10
  testRunner.Given("I have navigated to the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
@@ -193,9 +181,6 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 5
-this.FeatureBackground();
-#line hidden
 #line 26
  testRunner.Given("I have navigated to the application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
